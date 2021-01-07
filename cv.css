@@ -1,0 +1,168 @@
+#design{
+    overflow: scroll;
+}
+.header
+{
+    height: 20%;
+    width: 100%;
+    background-color: teal;
+    position: fixed;top: 0%;left: 0%;
+}
+#footer
+{
+    position: fixed;bottom:0%;left: 0%;
+    height:13%;
+    width: 100%;
+    background-color: teal;
+    font-family: cursive;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#container
+{
+    position: absolute;left: 0%;bottom: 10%;
+    height: auto;
+    width:100%;
+    font-size: 25px;
+    background-color:orange;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition-property: color;
+    align-items: center;
+}
+ a {
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    height: 5%;
+    width: 10%;
+    font-size: 25px;
+}
+a:hover
+{
+    cursor: pointer;
+    color: turquoise;
+}
+#img{
+    position: fixed;top: 20%;left: 7%;
+    border-width: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 10%;
+    min-height: 20%;
+    border-radius: 60%;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQH6rtCU4673iw/profile-displayphoto-shrink_200_200/0/1577173075499?e=1613001600&v=beta&t=c1xjCQ2VNd30lzwN0vpfyWPk4DMRAGFjDMvJyZkGIM0);
+    background-repeat: no-repeat;
+}
+#info
+{
+    position: fixed;top: 42%;left: 3%;
+    border-width: 2%;
+    border-color:tomato;
+    border-radius: 20%;
+    background-color:whitesmoke;
+    height: auto;
+    max-width:30%;
+    font-size:auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow:5px 10px teal;
+    opacity: 1.0;
+}
+#cpp
+{
+    position: fixed;top:15%;left: 70%;
+    min-width:15%;
+    height: 20%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+#c{
+    position: fixed;top:15%;left: 60%;
+    width: 15%;
+    height: 20%;
+    background-image: url("https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#web{
+    position: fixed;top:15%;left: 80%;
+    width: 15%;
+    height: 20%;
+    background-image: url("https://www.kindpng.com/picc/m/145-1451249_logo-web-development-icon-hd-png-download.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+ .text{
+      text-align: center;
+      font-size: 100%;
+      color: teal;
+  }
+  #info p{
+      position: relative;top: 20%;
+  }
+#header
+{
+    min-height:8%;
+    width:100%;
+    background-color: teal;
+    position: absolute;top: 0%;left: 0%;
+    z-index: 1;
+}
+#top_menu
+{
+position: absolute;top: 6%;left: 0%;
+color: white;
+font-family: url(https://fonts.google.com/specimen/Baloo+Bhaina+2?query=baloo+bh);
+display: inline-block;
+}
+#top_menu a :hover
+{
+    cursor: pointer;
+    color: turquoise;
+    text-decoration: underline;
+    background-color: cadetblue;
+}
+#top_menu li{
+    display: inline-flex;
+    flex-flow: column wrap;
+    padding-bottom: 5%;
+    z-index: 2;
+    font-size: auto;
+}
+#top_menu li:hover{
+background-color: springgreen;
+}
+/*#top_menu li a{
+padding-right:20%;
+padding-left: 7.6%;
+}*/
+#footer  li  {
+    
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-top: 4%;
+    color: whitesmoke;
+    text-decoration: none;
+    max-height: 5%;
+    width: auto;
+    font-size: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer li :hover
+{
+    color: mediumturquoise;
+    cursor: pointer;
+}
+
